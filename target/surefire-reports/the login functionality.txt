@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: the login functionality
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.905 s <<< FAILURE! - in the login functionality
+TC_001 To check the login with valid username and valid passowrd(the login functionality)  Time elapsed: 5.656 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+

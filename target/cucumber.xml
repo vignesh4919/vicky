@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="45.780638">
+<testcase classname="verify the login functionality" name="TC_001 To check the login with valid username and valid passowrd" time="6.784935">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at com.step.Login.validate_the_profile_name(Login.java:39)&#13;&#10;&#9;at ✽.validate the profile name(src/test/resources/features/Login.feature:8)&#13;&#10;"><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the valid "vigneshravi" and valid "vicky4919"..............passed
+And User clicks the login button............................................passed
+Then validate the profile name..............................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.step.Login.validate_the_profile_name(Login.java:39)
+	at ✽.validate the profile name(src/test/resources/features/Login.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="verify the login functionality" name="TC_002 To check the login with invalid username and invalid password" time="4.978194">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "vignesh4919" and invalid "vicky4919"..........passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify the login functionality" name="TC_002 To check the login with invalid username and invalid password 2" time="5.100522">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "raneshveer" and invalid "ramesh1995"..........passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify the login functionality" name="TC_002 To check the login with invalid username and invalid password 3" time="5.233641">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "praveen" and invalid "praveen1995"............passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="the login functionality" name="TC_001 To check the login with valid username and valid passowrd" time="5.244617">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at com.step.Login.validate_the_profile_name(Login.java:39)&#13;&#10;&#9;at ✽.validate the profile name(src/test/resources/features/Login2.feature:8)&#13;&#10;"><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the valid "vigneshravi" and valid "vicky4919"..............passed
+And User clicks the login button............................................passed
+Then validate the profile name..............................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.step.Login.validate_the_profile_name(Login.java:39)
+	at ✽.validate the profile name(src/test/resources/features/Login2.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="the login functionality" name="TC_002 To check the login with invalid username and invalid password" time="5.490955">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "vignesh4919" and invalid "vicky4919"..........passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="the login functionality" name="TC_002 To check the login with invalid username and invalid password 2" time="7.739922">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "raneshveer" and invalid "ramesh1995"..........passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="the login functionality" name="TC_002 To check the login with invalid username and invalid password 3" time="5.207852">
+<system-out><![CDATA[Given User in to the FB login page..........................................passed
+When User enters the invalid "praveen" and invalid "praveen1995"............passed
+And User clicks the login button............................................passed
+Then validate the error message.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
